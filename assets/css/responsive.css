@@ -1,0 +1,139 @@
+/* PC */
+@media (min-width: 1024px) {
+    .player_mini {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .player {
+        display: none;
+        max-height: 462px;   
+    }
+    #show {
+        margin-right: 0px;
+        position: relative;
+    }
+    .user_profile {
+        display: none;
+    }
+    
+    .player_mini {
+        font-size: 20px;
+        width: 200px;
+        bottom: 6px;
+    }
+
+    .mini_m_author {
+        font-size: 16px;
+    }
+
+    .show_footer { 
+        flex-wrap: wrap;
+        margin-bottom: 42px;
+    }
+
+    .nct_connect {
+        margin-bottom: 24px;
+        flex: 100%;
+    }
+    .social_connect {
+        margin-left: 18px;
+        display: inline-block;
+    }
+
+    .download {
+        margin: 8px 31px;
+    }
+
+    .slider {
+        margin: 0px 12px;
+    }
+
+    .u_slider {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .player {
+        display: none;
+        max-height: 462px;   
+    }
+    .user_profile {
+        display: none;
+    }
+    #show {
+        margin-right: 0px;
+        position: relative;
+    }
+
+    #show {
+        margin: 72px 0px 0px;
+    }
+
+    .slider {
+        margin: 0px 12px;
+    }
+    .u_slider {
+        grid-template-columns: 1fr 1fr;
+    }
+    .mobile_header {
+        position: fixed;
+        z-index: 1;
+        top: 0px;
+        left: 0px;
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        background-color: #E9EBF0;
+    }
+
+    .logo_mobile {
+        flex: 1;
+    }
+
+    .menu_btn,
+    .mb_search {
+        font-size: 28px;
+        padding: 19px;
+    }
+
+    .menu_btn {
+        padding-left: 13px;
+    }
+
+    .header_text {
+        margin: 8px 0px 0px 0px;
+        text-align: center;
+    }
+
+    #act {
+        display: none;
+    }
+
+    .show_footer {
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+    }
+
+    .social_connect {
+        flex: 100%;
+        margin: 8px 24px;
+    }
+
+    .download {
+        flex: 100%;
+        margin: 8px 31px;
+    }
+
+    .player_mini {
+        font-size: 16px;
+        width: 180px;
+        bottom: 6px;
+    }
+}

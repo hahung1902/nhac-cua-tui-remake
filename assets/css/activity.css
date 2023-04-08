@@ -1,0 +1,7 @@
+.open_player {
+    display: flex;
+}
+
+.close_player_mini {
+    display: none;
+}

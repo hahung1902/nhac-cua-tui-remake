@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhạc của tui - Remake</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="/assets/css/activity.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Josefin+Sans:wght@700&family=Poppins:wght@700&dis =swap" rel="stylesheet">
+<body>
+        <!-- Thẻ chứa toàn bộ trang web -->
+            <div class="player_mini js_player_mini">
+                <div class="mini_m_name">Nhạc của tui</div>
+                <div class="mini_m_author">Chill</div>
+                <div class="play_bar_mini">
+                    <i class="mini_play_btn fa-solid fa-play"></i>
+                    <i class="mini_next_btn fa-solid fa-forward"></i>
+                    <i class="mini_more_btn fa-solid fa-ellipsis-vertical"></i>
+                    <i class="extend_btn js_extend_btn fa-solid fa-chevron-left"></i>
+                </div>
+            </div>
+
+            <div class="mobile_header">
+                <div class="menu_btn middle_icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="logo logo_mobile">
+                    <div class="logo_icon"></div>
+                    <div class="logo_name">NCT</div>
+                </div>
+
+                <div class="middle_icon mb_search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <!-- Begin: Act -->
+            <div id="act">  
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo_icon"></div>
+                    <div class="logo_name">NCT</div>
+                </div>
+
+                <div class="side_bar">
+                    <div class="s_search">
+                        <i class="search_icon i_icon +fa-sharp fa-solid fa-magnifying-glass"></i>
+                        Tìm kiếm
+                    </div>
+                    <div class="s_home">
+                        <i class="home_icon i_icon fa-solid fa-house"></i>
+                        Trang chủ
+                    </div>
+                    <div class="s_discover">
+                        <i class="discover_icon i_icon fa-solid fa-compass"></i>
+                        Khám phá
+                    </div>
+
+                    <ul class="discover_list">
+                        <li class="discover_item">
+                            <i class=" i_icon fa-solid fa-music"></i>
+                            <div class="i_name">
+                                Playlist
+                            </div>
+                        </li>
+                        <li class="discover_item">
+                            <i class="i_icon fa-solid fa-microphone-lines"></i>
+                            <div class="i_name">
+                                Nghệ sĩ
+                            </div>
+
+                        </li>
+                        <li class="discover_item">
+                            <i class="i_icon fa-solid fa-book"></i>
+                            <div class="i_name">
+                                Album
+                            </div>
+
+                        </li>
+                        <li class="discover_item">
+                            <i class="i_icon fa-solid fa-compact-disc"></i>
+                            <div class="i_name">
+                                Bài hát
+                            </div>
+
+                        </li>
+                        <li class="discover_item">
+                            <i class="i_icon fa-solid fa-tags"></i>
+                            <div class="i_name">
+                                Thể loại
+                            </div>
+
+                        </li>
+                    </ul>
+                    
+                    <div class="s_rank">
+                        <i class="rank_icon fa-solid fa-ranking-star"></i>
+                        Xếp hạng
+                    </div>
+
+                    <div class="s_library">
+                        <div class="library_title">
+                            <i class="library_icon i_icon fa-solid fa-bookmark"></i>
+                            Thư viện
+                        </div>
+                        <div class="library_list">
+                            <li class="library_item">
+                                <i class="i_icon fa-solid fa-heart"></i>
+                                <div class="i_name">
+                                    Yêu thích
+                                </div>
+                            </li>
+                            
+                            <li class="library_item">
+                                <i class="i_icon fa-solid fa-clock-rotate-left"></i>
+                                <div class="i_name">
+                                    Lịch sử
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="setting">
+                    <div class="chatbot">
+                    </div>
+                    <div class="bottom_icon setting_btn">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- End: Act -->
+
+            <!-- Begin: Show -->
+            <div id="show">
+                <div class="show_header">
+                    <div class="header_text">NGHE GÌ HÔM NAY</div>
+                </div> 
+
+                <!-- <div class="slider"></div> -->
+
+                <!-- Slideshow -->
+                <div class="slide_container">
+                    <div class="slide_wrapper">
+                        <img class="slide_img slide_1 js_slide_1" src="/assets/img/slider/bikini.png" alt="anh_bikibi">
+                        <img class="slide_img slide_2 js_slide_2" src="/assets/img/slider/ve.jpg" alt="">
+                        <img class="slide_img slide_3 js_slide_3" src="/assets/img/slider/cu_chill_thoi.jpg" alt="">
+                        <img class="slide_img slide_4 js_slide_4" src="/assets/img/slider/thuong.jpg" alt="">
+                        <img class="slide_img slide_5 js_slide_5" src="/assets/img/slider/buoc_qua_mua_co_don.jpg" alt="">
+                        
+                    </div>
+                </div>
+            
+                <!-- Music University -->
+                <div class="university">
+                    <div class="u_header">
+                        Vũ trụ âm nhạc
+                    </div>
+
+                    <div class="u_slider">
+                        <div class="category c-1">
+                            <div class="c_content">
+                                <div class="c_play_btn">
+                                    <i class="fa-sharp fa-solid fa-play"></i>                     
+                                </div>
+                                <div class="c_title">V-POP</div>
+                            </div>
+                        </div>
+      
+                        <div class="category c-2">
+                            <div class="c_content">
+                                <div class="c_play_btn">
+                                    <i class="fa-sharp fa-solid fa-play"></i>
+                                </div>
+                                <div class="c_title">EDM Sôi động</div>
+                            </div>
+                        </div>
+
+                        <div class="category c-3">
+                            <div class="c_content">
+                                <div class="c_play_btn">
+                                    <i class="fa-sharp fa-solid fa-play"></i>
+                                </div>
+                                <div class="c_title">Rap</div>  
+                            </div>
+                        </div>
+       
+                        <div class="category c-4 ">
+                            <div class="c_content">
+                                <div class="c_play_btn">
+                                    <i class="fa-sharp fa-solid fa-play"></i>
+                                </div>
+                                <div class="c_title">Vinahouse bất diệt</div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+
+                <!-- Lịch sử nghe -->
+                <!-- <div class="history">
+                    <div class="his_header">Lịch sử nghe</div>
+                    <div class="under_line_full"></div>
+                    <ul class="his_list">
+                        <li class="his_item">
+                            <div class="hi_id">1</div>
+                            <div class="hi_name">
+                                Hãy trao cho anh</div>
+                                <div class="hi_more_btn">
+                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                </div>
+                            <div class="under_line_full"></div>
+                        </li>
+                        <li class="his_item">
+                            <div class="hi_id">2</div>
+                            <div class="hi_name">
+                                Cùng anh</div>
+                                <div class="hi_more_btn">
+                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                </div>
+                            <div class="under_line_full"></div>
+                        </li>
+                        <li class="his_item">
+                            <div class="hi_id">3</div>
+                            <div class="hi_name">
+                                Dù cho mai về sau</div>
+                                <div class="hi_more_btn">
+                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                </div>
+                            <div class="under_line_full"></div>
+                        </li>
+                        <li class="his_item">
+                            <div class="hi_id">4</div>
+                            <div class="hi_name">
+                                Đông kiếm em</div>
+                                <div class="hi_more_btn">
+                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                </div>
+                            <div class="under_line_full"></div>
+                        </li>
+                        <li class="his_item">
+                            <div class="hi_id">5</div>
+                            <div class="hi_name">
+                                Là anh</div>
+                                <div class="hi_more_btn">
+                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                </div>
+                            <div class="under_line_full"></div>
+                        </li>
+                        <li class="his_item">
+                            <div class="hi_id">6</div>
+                            <div class="hi_name">
+                                Đường tôi chở em về</div>
+                                <div class="hi_more_btn">
+                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                </div>
+                            <div class="under_line_full"></div>
+                        </li>
+                        <li class="his_item">
+                            <div class="hi_id">7</div>
+                            <div class="hi_name">
+                                Dáng em</div>
+                                <div class="hi_more_btn">
+                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                </div>
+                            <div class="under_line_full"></div>
+                        </li>
+                        <li class="his_item">
+                            <div class="hi_id">8</div>
+                            <div class="hi_name">
+                                Hãy ra khỏi người đó đi</div>
+                                <div class="hi_more_btn">
+                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                </div>
+                            <div class="under_line_full"></div>
+                        </li>
+
+                        <li class="his_item">
+                            <div class="hi_id">9</div>
+                            <div class="hi_name">
+                                Hẹn em ở lần yêu thứ hai</div>
+                                <div class="hi_more_btn">
+                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                </div>
+                            <div class="under_line_full"></div>
+                        </li>
+
+                        <li class="his_item">
+                            <div class="hi_id">10</div>
+                            <div class="hi_name">
+                                Tháng tư là lời nói dối của em</div>
+                                <div class="hi_more_btn">
+                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                </div>
+                            <div class="under_line_full"></div>
+                        </li>
+                    </ul>
+                </div> -->
+
+                <div class="rank_music">
+                    <div class="r_select">
+                        <div class="select1">Nổi bật</div>
+                        <div class="select2">Xếp Hạng</div>
+                    </div>
+
+                    <div class="rank_header">
+                        <div class="rh_name">TRENDING</div>
+                        <div class="r_list_btn">Xem tất cả></div>
+                        <div class="under_line_m">
+                        </div>
+                    </div>
+
+                    <ul class="r_list_music">
+                        <li class="lm_item">
+                            <div class="m_icon m_i-1"></div>
+                            <div class="m_info">
+                                <div class="m_name">Lạc trôi</div>
+                                <div class="m_author">Sơn Tùng Mt-p</div>
+                                <div class="under_line_full"></div>
+                            </div>
+                        </li>
+                        <li class="lm_item">
+                            <div class="m_icon m_i-2"></div>
+                            <div class="m_info">
+                                <div class="m_name">Nàng thơ</div>
+                                <div class="m_author">Hoàng Dũng</div>
+                                <div class="under_line_full"></div>
+                            </div>
+                        </li>
+                        <li class="lm_item">
+                            <div class="m_icon m_i-3"></div>
+                            <div class="m_info">
+                                <div class="m_name">Thanh xuân</div>
+                                <div class="m_author">Da LAB</div>
+                                <div class="under_line_full"></div>
+                            </div>
+                        </li>
+                        <li class="lm_item">
+                            <div class="m_icon m_i-4"></div>
+                            <div class="m_info">
+                                <div class="m_name">Lạ lùng</div>
+                                <div class="m_author">Vũ</div>
+                                <div class="under_line_full"></div>
+                            </div>
+                        </li>
+                        <li class="lm_item">
+                            <div class="m_icon m_i-5"></div>
+                            <div class="m_info">
+                                <div class="m_name">Ghé qua</div>
+                                <div class="m_author">Dick</div>
+                                <div class="under_line_full"></div>
+                            </div>
+                        </li>
+                        <li class="lm_item">
+                            <div class="m_icon m_i-6"></div>
+                            <div class="m_info">
+                                <div class="m_name">Tìm lại bầu trời</div>
+                                <div class="m_author">Tuấn Hưng</div>
+                                <div class="under_line_full"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- <div class="premium">
+                    <div class="p_header">
+                        <div class="p_h_text">MY PREMIUM</div>
+                        <i class="p_h_icon fa-regular fa-gem"></i>
+                    </div>
+
+                    <div class="p_content">
+                        <div class="p_background"></div>
+                        <div class="p_text">
+                            <div class="upgrade_btn">
+                                Nâng cấp
+                            </div>
+                            <div class="p_c_des">
+                                Nghe nhạc chất lượng cao, tải bài hát không giới hạn
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="footer_line under_line_full">
+                </div>
+                <div class="show_footer">
+                    <div class="nct_connect">
+                        <div class="nct_logo">
+                            <img class="nct_logo_img" src="/assets/img/logo-nctc.svg" alt="nct_logo">
+                        </div>
+                        <div class="nct_info">
+                            <div class="nct_name">
+                                CÔNG TY CỔ PHẦN NCT
+                            </div>
+                            
+                            <div class="nct_phone"> 
+                                <i class="fa-solid fa-phone"></i>                          
+                                (028) 3868 7979
+                            </div>  
+                            <div class="nct_adress">
+                                <i class="fa-solid fa-location-dot"></i>
+                                Tòa nhà The 678 Tower, 67 Hoàng Văn Thái, P.Tân Phú, Q.7, TP.HCM
+                            </div>
+                        </div>                    
+                    </div>     
+
+                    <div class="social_connect">
+                        <ul class="social_list">
+                            <li><i class="social_item fa-brands fa-square-facebook"></i></li>
+                            <li><i class="social_item fa-brands fa-square-instagram"></i></li>
+                            <li><i class="social_item fa-brands fa-tiktok"></i></li>
+                        </ul>
+                    </div>
+
+                    <div class="download">
+                        <div class="iphone_download">
+                            <img src="/assets/img/ios_download.png" alt="">
+                        </div>
+                        <div class="android_download">
+                            <img src="/assets/img/android_download.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Sug -->
+            <div id="sug">
+                <div class="user_profile">
+                    <div class="user_img"></div>
+                    <div class="user_info">
+                        <div class="user_name">
+                            <span>QUANH KỸ NĂNG</span>
+                        </div>
+                        <div class="id">#999999</div>
+                    </div>
+                </div>
+
+                <!-- Player -->
+                <div class="player js_player">
+                    <div class="dash_board">
+                        <div class="music_img"></div>
+                        <div class="music_info">
+                            <div class="m_name song_name_playing">Nhạc của tui</div>
+                            <div class="m_author singer_playing">Chill</div>
+                        </div>
+                        <div class="playlist_content">
+                            Playlist: Happy Weekend
+                        </div>          
+                    </div>
+
+                    <div class="p_footer">
+                        <div class="playlist_bar">
+                            <i class="back_btn js_back_btn fa-solid fa-angle-right"></i>
+                            <div class="playlist_btn">
+                                Playlist
+                            </div>
+                            <i class="volumn_btn fa-sharp fa-solid fa-volume-high"></i>
+                        </div>
+                        <div class="time_line">
+                            <div class="time">
+                                <div class="time_start">
+                                    00:00
+                                </div>
+                                <div class="time_end">
+                                    03:00
+                                </div>
+                            </div>  
+
+                            <input type="range" id="progress" class="progress" value="0" step="1" min="0" max="100">
+
+                            <audio src="" class="audio" id="audio"></audio>
+                        </div>
+                        <div class="play_bar">
+                            <i class="repeat_btn fa-solid fa-rotate-right"></i>
+                            <i class="prev_btn fa-solid fa-backward"></i>
+                            <div class="play_btn">
+                                <!-- <i class="play_btn fa-regular fa-circle-play"></i> -->
+                                <i class="fas fa-pause icon-pause"></i>
+                                <i class="fas fa-play icon-play"></i>
+                            </div>
+                            <i class="next_btn fa-solid fa-forward"></i>
+                            <i class="random_btn fa-solid fa-repeat"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End: Sug -->
+        
+        <script src="./js/main.js"></script>
+        <script src="./js/firebase.js"></script>
+
+</body>
+</html>
